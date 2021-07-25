@@ -1,0 +1,38 @@
+#container{
+                text-align: center;
+}
+body{ background-color: #cfedff;
+}
+h1{font-weight: lighter;
+      font-family: Calibri;
+       font-size: 35px;
+       color: black;
+}
+h3{color: black;
+    font-weight: lighter;
+    font-family: Calibri;
+    font-size: 20px;
+}
+img{ border: 1px solid black;
+        width: 30%;
+}
+.news{border: 1px solid black;
+     font-family: Calibri;
+       font-size: 20px;
+       color: black;
+       width: 80%;
+       margin: 0 auto;
+}
+
+#details table{
+ margin: 0 auto;
+}
+#details table tr td a{
+text-decoration: none;
+}
+#details{ border:1px solid black;
+                   width:98%;
+                   height:25%;
+                   background-color:#ff7f27;
+                     margin: 0 auto;
+}

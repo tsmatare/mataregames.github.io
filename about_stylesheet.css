@@ -1,0 +1,37 @@
+h2{color: black;
+    font-family: Calibri;
+    font-size: 35px;
+}
+h1{font-weight: lighter;
+     font-family: Impact;
+      font-size: 50px;
+       color: black;
+}
+#container{ border:2px solid black;
+                   width:98%;
+                   background-color: #cfedff;
+                   text-align: center;
+}
+h3{color: black;
+    font-weight: lighter;
+    font-family: Calibri;
+    font-size: 28px;
+}
+h6{color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 25px;
+}
+#why{ border:1px solid black;
+                   width:50%;
+                   height:60%;
+                   margin: 0 auto;
+}
+
+h4{color: black;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 25px;
+}
+img{ width: 25%;
+}

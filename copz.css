@@ -1,0 +1,51 @@
+img{border: 1px solid black;
+       width: 25%;
+       height: 25%;
+}
+#container{background-color: #6e6eff;
+                 border: 1px solid black;
+                 width: 98%;
+                 text-align: center;
+}
+.card{background-color: #ee9e4a;
+         width: 40%;
+         height: 75%;
+           border: 1px solid black;
+      font-weight: lighter;
+                   font-family: Calibri;
+                   font-size: 20px;
+                   color: black;
+ margin: 0 auto;
+}
+.go{ background-color: #1dc9e6;
+       width: 40%;
+ border: 1px solid black;
+ margin: 0 auto;
+}
+        
+h1{  font-weight: lighter;
+                   font-family: Calibri;
+                   font-size: 30px;
+                   color: white;
+}
+ a {
+text-decoration : none;
+ color: black;
+font-family: Calibri;
+       font-size: 25px;
+}
+@media (max-width: 700px){   
+.card{background-color: #ee9e4a;
+         width: 80%;
+         height: 75%;
+           border: 1px solid black;
+      font-weight: lighter;
+                   font-family: Calibri;
+                   font-size: 20px;
+                   color: black;
+}
+.go{ background-color: #1dc9e6;
+       width: 80%;
+ border: 1px solid black;
+}
+}

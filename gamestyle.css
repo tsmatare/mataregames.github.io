@@ -1,0 +1,182 @@
+.center{ text-align: center;
+}
+#timerdisplay{border: 1px solid black;
+                      width: 12%;
+                      height: 4%;
+                      font-size: 23px;
+                      border-radius: 2px;
+                     margin: 0 auto;
+}
+                   
+h2{color: white;
+    font-family: Calibri;
+    font-size: 40px;
+}
+#container{border:1px solid black;
+                 height: 100%;
+                background-image: url("beckg.png");
+}
+.open{}
+.close{display: none;
+}
+#geimar{background-color: #3393c1;
+              border: 1px solid black;
+              width: 98%;
+             height: relative;
+              margin: 0 auto;
+}
+#setup{border: 1px solid black; 
+           background-color: #3393c1;
+           width: 98%;
+            margin: 0 auto;
+}
+#setuptoggle{ background-color :#ffc90e;
+                color : black;
+                width: 20%;
+                padding : 1%; 
+                font-size : 18px;
+               border:1px solid #4755a8;
+}
+#box{ border:1px solid black;
+                   width:300px;
+                  padding : 1%; 
+                   color: #6a6262;
+                    font-weight: lighter;
+                    font-family: Calibri;
+                     font-size: 30px;
+}
+#eda {background-color :#ffc90e;
+                color : black;
+                width:12%;
+                padding : 1%; 
+                font-size : 16px;
+               border:1px solid #4755a8;
+}
+h1{color: white;
+    font-weight: lighter;
+    font-family: Calibri;
+    font-size: 30px;
+}
+li{border : 0.5px solid black;
+   list-style-type: none;
+         width:50%;
+          color: black;
+          font-weight: lighter;
+           font-family: Calibri;
+           font-size: 30px;
+          background-color :#f0ad57;
+             margin: 0 auto;
+}
+#logo{ border: 1px solid black;
+           width: 30%;
+           height: 30%;
+}
+#display{border: 1px solid black;
+              background-color: white;
+              color: #6a6262;
+             width: 45%;
+             height: relative;
+             font-weight: lighter;
+              font-family: Calibri;
+            font-size: 30px;
+             margin: 0 auto;
+}
+#play{border: 1px solid black;
+         background-color: orange;
+         width: 20%;
+         height:8%;
+         font-family: Calibri;
+        font-size: 20px;
+        color: black;
+}
+#icon_section{top: 16%;
+                    left: 2%;
+                 position: fixed;
+}
+@media (max-width: 900px){   
+#container{border:1px solid black;
+                 height: 100%; 
+                background-image: url("beckg.png");
+               background-repeat: repeat;
+}
+#geimar{background-color: #3393c1;
+              border: 1px solid black;
+              width: 98%;
+             height: 80%;
+} 
+ #display{border: 1px solid black;
+              background-color: white;
+              color: #6a6262;
+             width: 70%;
+             font-weight: lighter;
+              font-family: Calibri;
+            font-size: 20px;
+}
+#icon_section{top: 32%;
+                     left: 3%; 
+                 position: fixed;
+}
+h2{color: white;
+    font-family: Calibri;
+    font-size: 20px;
+}
+#timerdisplay{border: 1px solid black;
+                      width: 38%;
+                      height: 5%;
+                      font-size:20px;
+                      border-radius: 2px;
+}
+#box{ width: 90%;
+}
+#eda {background-color :#ffc90e;
+                color : black;
+                width:25%;
+                padding : 1%; 
+                font-size : 16px;
+               border:1px solid #4755a8;
+}
+}
+@media (max-width: 546px){   
+#icon_section{top: 19%;
+                     left: 3%; 
+                 position: fixed;
+}
+#display{border: 1px solid black;
+              background-color: white;
+              color: #6a6262;
+             width: 50%;
+             font-weight: lighter;
+              font-family: Calibri;
+            font-size: 20px;
+}
+img{ width:70%;
+}
+}
+@media (max-width: 326px){   
+h2{color: white;
+    font-family: Calibri;
+    font-size: 17px;
+}
+img{ width: 50%;
+}
+#play{border: 1px solid black;
+         background-color: orange;
+         width: 45%;
+         height:8%;
+         font-family: Calibri;
+        font-size: 20px;
+        color: black;
+}
+#icon_section{top: 30%;
+                     left: 5%; 
+                 position: fixed;
+}
+#setuptoggle{ background-color :#ffc90e;
+                color : black;
+                width: 30%;
+                padding : 1%; 
+                font-size : 18px;
+               border:1px solid #4755a8;
+}
+}
+                                     
