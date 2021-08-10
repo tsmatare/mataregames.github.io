@@ -9,8 +9,8 @@ elem.requestFullScreen();
 elem.msRequestFullScreen();
 } else if (elem.mozRequestFullScreen) {
 elem.mozRequestFullScreen();
-} else if (elem.webkitRequestFullscreen) {
-elem.webkitRequestFullcreen(Element.ALLOW_KEYBOARD_INPUT);
+} else if (elem.webkitRequestFullScreen) {
+elem.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
 }
 }else{
 if (document.exitFullscreen) {
@@ -19,8 +19,8 @@ document.exitFullscreen();
 document.msExitFullscreen();
 } else if (document.mozCancelFullScreen){
 document.mozCancelFullScreen();
-} else if (document.webkitExitFullscreen){
-document.webkitExitFullscreen();
+} else if (document.webkitExitFullScreen){
+document.webkitExitFullScreen();
 }
 }
 }
